@@ -24,8 +24,8 @@
         <img class="product__img" src="#" alt="img">
     </header>
     <main class="main">
-        <article class="main__about about">
-            <section class="about__descr">
+        <section class="main__about about">
+            <div class="about__descr">
                 <h2 class="about__title">About your product</h2>
                 <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga,
                     illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam
@@ -33,33 +33,35 @@
                 <p class="about__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel
                     exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde
                     perferendis nemo debitis dolor.</p>
-            </section>
+                </div>
             <img class="about__img" src="#" alt="img">
-        </article>
-        <article class="main__plusesProduct plusesProduct">
+        </section>
+        <section class="main__plusesProduct plusesProduct">
             <h2 class="plusesProduct__title">Dignity and pluses product</h2>
             <div class="plusesProduct__descr">
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
-                <div class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
-                    impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
-                    quaerat porro totam, dolore minus inventore.</div>
+                <ul class="plusesProduct__list">
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                    <li class="plusesProduct__item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque,
+                            impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime,
+                            quaerat porro totam, dolore minus inventore.</li>
+                </ul>
             </div>
-        </article>
-        <article class="main__scrinshots scrinshots">
+        </section>
+        <section class="main__scrinshots scrinshots">
             <h2 class="scrinshots__title">Scrinshots</h2>
             <div class="scrinshots__wrap">
                 <article class="scrinshots__item">
@@ -99,8 +101,8 @@
                     </div>
                 </article>
             </div>
-        </article>
-        <article class="main__reviews reviews">
+        </section>
+        <section class="main__reviews reviews">
             <h2 class="reviews__title">Reviews</h2>
             <div class="reviews__box">
                 <article class="reviews__item">
@@ -140,8 +142,8 @@
                     </blockquote>
                 </article>
             </div>
-        </article>
-        <article class="main__buy buy">
+        </section>
+        <section class="main__buy buy">
             <h2 class="buy__title">Buy it now</h2>
             <section class="buy__tariff tariff">
                 <h3 class="tariff__title">Standart</h3>
@@ -187,18 +189,18 @@
                 </ol>
                 <button class="tariff__btn">BUY</button>
             </section>
-        </article>
+        </section>
     </main>
     <footer class="footer">
         <address class="footer__contacts contacts">
             <h2 class="contacts__title">Contacts</h2>
-            <div class="contacts__feedback feedback">
+            <section class="contacts__feedback feedback">
                 <input class="feedback__name" type="text" placeholder="Your name:">
                 <input class="feedback__email" type="email" placeholder="Your email:">
                 <textarea class="feedback__email" cols="30" rows="10" placeholder="Your message:"></textarea>
                 <button class="feedback__btn">Send</button>
-            </div>
-            <div class="contacts__choice">
+            </section>
+            <section class="contacts__choice">
                 <div class="contacts__skype">here_your_login_skype</div>
                 <div class="contacts__icq">279679659</div>
                 <div class="contacts__email">psdhtmlcss@mail.ru</div>
@@ -210,14 +212,12 @@
                     <img class="social__g" src="" alt="g">
                     <img class="social__yt" src="" alt="yt">
                 </div>
-            </div>
+            </section>
         </address>
         <section class="footer__rights">
             <p class="footer__text">Copyright &copy; 2019 Product name &#183; PSD HTML CSS</p>
         </section>
-
     </footer>
-
 </body>
 
 </html>
