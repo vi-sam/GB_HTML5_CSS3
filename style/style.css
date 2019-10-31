@@ -171,7 +171,6 @@ body {
 .scrinshots__itemTitle {
     color: #445161;
     font-size: 24px;
-    font-weight: 400;
     line-height: 30px;
     margin-bottom: 15px;
 }
@@ -179,7 +178,6 @@ body {
 .scrinshots__itemText {
     color: #333333;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -196,7 +194,6 @@ body {
 .reviews__title {
     margin-bottom: 35px;
     font-size: 30px;
-    font-weight: 400;
     line-height: 36px;
     color: #445161;
     text-align: center;
@@ -246,7 +243,6 @@ body {
 .reviews__qouteText {
     margin-bottom: 15px;
     font-size: 14px;
-    font-weight: 400;
     line-height: 18px;
     font-style: italic;
     color: #333333;
@@ -254,8 +250,256 @@ body {
 
 .reviews__qouteAutor {
     font-size: 14px;
-    font-weight: 400;
     line-height: 18px;
     font-style: normal;
     color: #989898;
+}
+
+/*buy*/
+
+.main__buy {
+    padding: 50px;
+    min-height: 670px;
+}
+
+.buy__title {
+    margin-bottom: 35px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    text-align: center;
+}
+
+.buy__wrap {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 990px;
+}
+
+.tariff {
+    max-width: 300px;
+    background-color: #445162;
+    border: 2px solid #445162;
+    border-radius: 5px;
+}
+
+.tariff__title {
+    height: 50px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.tariff__price {
+    height: 70px;
+    color: #445162;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.tariff__descr {
+    margin: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.tariff__btn {
+    margin: 0 20px 20px 20px;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*contacts*/
+
+.footer__contacts {
+    padding: 50px;
+}
+
+.contacts {
+    min-height: 509px;
+    background-color: #445162;
+}
+
+.contacts__title {
+    margin-bottom: 30px;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.contacts__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-right: 45px;
+}
+
+.feedback__name {
+    margin-bottom: 20px;
+    border: none;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.feedback__name::placeholder {
+    padding-left: 10px;
+    color: #445162;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.feedback__email {
+    margin-bottom: 20px;
+    border: none;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.feedback__email::placeholder {
+    padding-left: 10px;
+    color: #445162;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.feedback__message {
+    margin-bottom: 20px;
+    border: none;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.feedback__message::placeholder {
+    font-family: "Arial";
+    padding-left: 10px;
+    color: #445162;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.feedback__btn {
+    margin: auto;
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.contacts__choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 240px;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.contacts__skype {
+    margin-bottom: 20px;
+    height: 26px;
+    padding-left: 30px;
+    background: url(../img/skype_icon.png) no-repeat;
+    line-height: 26px;
+}
+
+.contacts__icq {
+    margin-bottom: 20px;
+    height: 26px;
+    padding-left: 30px;
+    background: url(../img/icq_icon.png) no-repeat;
+    line-height: 26px;
+}
+
+.contacts__email {
+    margin-bottom: 20px;
+    height: 26px;
+    padding-left: 30px;
+    background: url(../img/email_icon.png) no-repeat;
+    line-height: 26px;
+}
+
+.contacts__mobile {
+    margin-bottom: 20px;
+    height: 26px;
+    padding-left: 30px;
+    background: url(../img/phone_icon.png) no-repeat;
+    line-height: 26px;
+}
+
+.social__tw {
+    width: 45px;
+    background: url(../img/social_buttons.png) no-repeat 1px;
+}
+
+.social__fb {
+    width: 45px;
+    background: url(../img/social_buttons.png) no-repeat -47px;
+}
+
+.social__in {
+    width: 45px;
+    background: url(../img/social_buttons.png) no-repeat -97px;
+}
+
+.social__g {
+    width: 45px;
+    background: url(../img/social_buttons.png) no-repeat -147px;
+}
+
+.social__yt {
+    width: 45px;
+    background: url(../img/social_buttons.png) no-repeat -197px;
+}
+
+.footer__rights {
+    height: 25px;
+}
+
+.footer__text {
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
 }
