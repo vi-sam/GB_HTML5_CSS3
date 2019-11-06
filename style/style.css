@@ -290,6 +290,10 @@ body {
     margin-bottom: 24px;
 }
 
+.hidden {
+    display: none;
+}
+
 .reviews__itemImg {
     margin-right: 26px;
     width: 75px;
@@ -413,17 +417,21 @@ body {
 
 /*contacts*/
 
+.footer {
+    background-color: #445162;
+    padding-top: 50px;
+}
+
 .footer__contacts {
     padding: 50px;
 }
 
 .contacts {
     min-height: 509px;
-    background-color: #445162;
+    
 }
 
 .contacts__title {
-    margin-bottom: 30px;
     font-style: normal;
     color: #ffffff;
     font-size: 30px;
@@ -709,6 +717,7 @@ body {
 
 .footer__rights {
     height: 25px;
+    background-color: #ffffff;
 }
 
 .footer__text {

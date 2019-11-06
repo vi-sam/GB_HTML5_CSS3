@@ -13,11 +13,7 @@
 <body>
     <header class="header">
         <video class="header__video" autoplay loop muted>
-            <source src="video/Armin van Buuren - Million Voices (Official Video).webm" type="video/webm">
-            <object data="video/Armin van Buuren - Million Voices (Official Video).webm"
-                type="application/x-shockwave-flash">
-                <param name="movie" value="video/Armin van Buuren - Million Voices (Official Video).webm">
-            </object>
+            <source src="video/Armin_van_Buuren_-_Million_Voices_(Official_Video).webm" type="video/webm">
         </video>
         <section class="product">
             <h1 class="product__title">Product name</h1>
@@ -125,6 +121,7 @@
             <h2 class="reviews__title">Reviews</h2>
             <div class="reviews__box">
                 <article class="reviews__item">
+                    <h3 class="hidden">Porro officia</h3>
                     <img class="reviews__itemImg" src="img/eletronic-music-disc-jockey.jpg" alt="img">
                     <blockquote class="reviews__qoute">
                         <p class="reviews__qouteText">Porro officia cumque sint deleniti nemo facere rem vitae odit
@@ -134,6 +131,7 @@
                     </blockquote>
                 </article>
                 <article class="reviews__item">
+                    <h3 class="hidden">Porro officia</h3>
                     <img class="reviews__itemImg" src="img/eletronic-music-disc-jockey.jpg" alt="img">
                     <blockquote class="reviews__qoute">
                         <p class="reviews__qouteText">Porro officia cumque sint deleniti nemo facere rem vitae odit
@@ -143,6 +141,7 @@
                     </blockquote>
                 </article>
                 <article class="reviews__item">
+                    <h3 class="hidden">Porro officia</h3>
                     <img class="reviews__itemImg" src="img/eletronic-music-disc-jockey.jpg" alt="img">
                     <blockquote class="reviews__qoute">
                         <p class="reviews__qouteText">Porro officia cumque sint deleniti nemo facere rem vitae odit
@@ -152,6 +151,7 @@
                     </blockquote>
                 </article>
                 <article class="reviews__item">
+                    <h3 class="hidden">Porro officia</h3>
                     <img class="reviews__itemImg" src="img/eletronic-music-disc-jockey.jpg" alt="img">
                     <blockquote class="reviews__qoute">
                         <p class="reviews__qouteText">Porro officia cumque sint deleniti nemo facere rem vitae odit
@@ -214,31 +214,31 @@
         </section>
     </main>
     <footer class="footer">
+        <h2 class="contacts__title">Contacts</h2>
         <address class="footer__contacts contacts">
-            <h2 class="contacts__title">Contacts</h2>
             <div class="contacts__wrap">
                 <form class="contacts__feedback feedback" name="feedback">
                     <input class="feedback__name" type="text" name="feedback__name" pattern="[A-Za-zА-Яа-яЁё]"
                         placeholder="Your name:">
-                    <label class="feedback__label" for="feedback__name">Формат: только буквы русского и латинского
+                    <label class="feedback__label">Формат: только буквы русского и латинского
                         языка</label>
                     <input class="feedback__email" type="email" name="feedback__email"
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your email:">
-                    <label class="feedback__label" for="feedback__email">Формат: имя_ящика@
+                    <label class="feedback__label">Формат: имя_ящика@
                         имя_домена.имя_доменной_зоны. Пример: psdhtmlcss@mail.ru</label>
                     <input class="feedback__tel" type="tel" name="feedback__tel"
                         pattern="[+]{1}[1-9]{1}[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Your telefone:">
-                    <label class="feedback__label" for="feedback__tel">Формат: +XXX-XXX-XXXX</label>
+                    <label class="feedback__label">Формат: +XXX-XXX-XXXX</label>
                     <div class="feedback__radio">
                         <input type="radio" name="pol" value="M">
-                        <label class="feedback__labelRadio" for="pol">Мужчина</label>
+                        <label class="feedback__labelRadio">Мужчина</label>
                         <input type="radio" name="pol" value="Ж">
-                        <label class="feedback__labelRadio" for="pol">Женщина</label>
+                        <label class="feedback__labelRadio">Женщина</label>
                     </div>
-                    <textarea class="feedback__message" type="text" placeholder="Your message:"></textarea>
-                    <button class="feedback__btn" form="feedback" type="submit">Send</button>
+                    <textarea class="feedback__message" placeholder="Your message:"></textarea>
+                    <button class="feedback__btn" type="submit">Send</button>
                 </form>
-                <section class="contacts__choice">
+                <div class="contacts__choice">
                     <div class="contacts__skype">here_your_login_skype</div>
                     <div class="contacts__icq">279679659</div>
                     <div class="contacts__email">psdhtmlcss@mail.ru</div>
@@ -250,12 +250,12 @@
                         <a href="#" class="social__g"></a>
                         <a href="#" class="social__yt"></a>
                     </div>
-                </section>
+                </div>
             </div>
         </address>
-        <section class="footer__rights">
+        <div class="footer__rights">
             <p class="footer__text">Copyright &copy; 2019 Product name &#183; PSD HTML CSS</p>
-        </section>
+        </div>
     </footer>
 </body>
 
