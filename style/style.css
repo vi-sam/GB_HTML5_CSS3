@@ -17,7 +17,6 @@ body {
 /*header*/
 
 .header {
-    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -79,7 +78,10 @@ body {
 .product__img {
     width: 469px;
     height: 214px;
-    background-color: #ffffff;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0.9;
+
 }
 
 /*about*/
@@ -458,7 +460,6 @@ body {
 }
 
 .feedback__name {
-    margin-bottom: 20px;
     border: none;
     height: 40px;
     background-color: #ffffff;
@@ -494,7 +495,6 @@ body {
 }
 
 .feedback__email {
-    margin-bottom: 20px;
     border: none;
     height: 40px;
     background-color: #ffffff;
@@ -523,6 +523,20 @@ body {
 }
 
 .feedback__email::placeholder {
+    padding-left: 10px;
+    color: #445162;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.feedback__tel {
+    border: none;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.feedback__tel::placeholder {
     padding-left: 10px;
     color: #445162;
     font-size: 16px;
@@ -581,6 +595,27 @@ body {
     line-height: 24px;
     text-transform: uppercase;
     border-radius: 5px;
+}
+
+.feedback__label {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #cfcfcf;
+    font-style: normal;
+}
+
+.feedback__radio {
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.feedback__labelRadio {
+    font-size: 16px;
+    color: #ffffff;
+    font-style: normal;
 }
 
 .contacts__choice {
